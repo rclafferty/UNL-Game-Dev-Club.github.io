@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: UNL Game Development Club
+email: gamedev@cse.unl.edu
+
+# Write an awesome description for your new site here. You can edit this line in _config.yml.
+# It will appear in your document head meta (for Google search results) and in your feed.xml site description.  
+description: >- # this means to ignore newlines until "baseurl:"
+  We are UNL's only club focused on learning to develop video games. We meet weekly on Sundays at 7 pm in Avery Hall. All are welcome and there are no pre-requisites to join.
+  Our mission is to guide students in learning effective professional game design techniques. We accomplish this by working through game development projects in our meetings, such as demos or active projects. We also provide students the opportunity to showcase their skills at game development competitions ("game jams").
+  To get involved, please visit the Contact page and reach out to one of the club officers.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: n/a
+github_username:  UNL-Game-Dev-Club
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-hydejack
+plugins:
+  - jekyll-feed
+
+kramdown:
+  parse_block_html: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      # "" means apply to all files
+      # "folder_name" means apply to all files within folder_name/
+      type: "pages"
+    values:
+      # Values
+      layout: "page"
+      title: "My Title"
+      author: "Casey Lafferty"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

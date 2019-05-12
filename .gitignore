@@ -1,2 +1,6 @@
-# Directories to ignore
-.sass-cache/
+# The site is built when it is served
+_site
+
+# No need to include cache and metadata
+.sass-cache
+.jekyll-metadata

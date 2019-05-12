@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <div id="header">
+        <h1><a href="index"><span class="logo_hover">UNL</span> Game <span class="logo_hover">Dev</span> Club</a></h1>
+        <h2>Let's make a game</h2>
+    </div>
+    <div id="navbar">
+        <div class="navbar_link">
+            <a href="index">Home</a>
+        </div>
+        <div class="navbar_link">
+            <a href="projects">Projects</a>
+        </div>
+        <div class="navbar_link">
+            <a href="news">News</a>
+        </div>
+        <div class="navbar_link">
+            <a href="resources">Resources</a>
+        </div>
+        <div class="navbar_link">
+            <a href="contact">Contact</a>
+        </div>
+    </div>
+    <div class="body_text">
+        <div class="header_content">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.description }}</p>
+        </div>
+        <div class="body_text_content">
+            <hr>
+            {{ content }}
+        </div>
+    </div>
+    <div class="footer">
+        <a href="index">Home</a>
+        <a href="projects">Projects</a>
+        <a href="news">News</a>
+        <a href="resources">Resources</a>
+        <a href="contact">Contact</a>
+    </div>
+</body>
+</html>

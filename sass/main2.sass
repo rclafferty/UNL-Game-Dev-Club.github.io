@@ -217,8 +217,13 @@ body
 
             h1
                 text-align: center
+                margin-top: 2rem
                 margin-bottom: 2rem
                 color: $scarlet
+                
+            hr
+                &:first-child
+                    margin-top: 0
 
             .news, .project
                 &_content
@@ -313,7 +318,6 @@ hr
     &-set
         display: grid
         grid-template-columns: 1fr 1fr
-        // grid-gap: 5rem
 
     &-section
         h2
